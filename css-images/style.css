@@ -1,29 +1,39 @@
+/* changes the default settings from browser*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* affects the color and prevents underlining*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* changes text size is paragraph tags*/
+p {
+    font-size: 16px;
+}
+/* changes background color to white in the body*/
 body {
     background-color: #d9dcd6;
 }
-
+/* adjusts padding, font family, background color and the text color represented in the header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* sets the display style and changes the text size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* changes the color of the 'seo' in horiseon*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* changes the layout, font and font size of the navigation bar*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +41,14 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header nav ul {
-    list-style-type: none;
-}
-
+/* makes options in navigation bar appear */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
+/* main image on home screen*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +57,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* defines the layout of an image to the left of the html box*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* defines the layout of the image to the right of the html box*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* difines the layout of the main section of the site*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* defines the layout of the aside tag*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +84,55 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* layout on the lead generation section*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* layout on the lead generation image*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* layout of the 'lead generation' text*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* layout of the 'brand awareness' section*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*layout of the 'brand awareness' text*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* layout of the 'brand awareness' image*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* layout of the 'cost management' section*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* layout of the 'cost management' text*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* layout of the 'cost management' image*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* layout of the 'search engine optimization' section*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +141,16 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* layout of the 'search engine optimization' image*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* layout of the 'search engine optimization' text*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* layout of the 'online reputation management' section*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +159,16 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* layout of the 'online reputation management' image*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* layout of the 'online reputation management' text*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*layout of the 'social media marketing' section*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +177,23 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+/* layout of the 'social media marketing' image*/
 .social-media-marketing img {
     max-height: 200px;
 }
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* layout of the 'social media marketing' text*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* layout of the 'footer' section*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*sets the text size for the footer section*/
 .footer h2 {
     font-size: 20px;
 }
